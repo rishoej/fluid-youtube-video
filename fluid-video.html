@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	body{
+		max-width: 1200px;
+		margin: auto;
+	}
+	h1{
+		margin: 20px;
+	    font-weight: 800;
+	    font-size: 40px;
+	    letter-spacing: 0px;
+	    line-height: 1;
+	}
+	p{
+		margin: 20px;
+	    font-weight: 300;
+	    font-size: 16px;
+	    letter-spacing: 0px;
+	    line-height: 22px;
+	}
+	.video{
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	.video-holder{
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
+	    max-width: 100%;
+	    margin-top: 20px;
+	}
+	@media screen and (min-width:1250px){
+		h1,p{
+			margin: 0px;
+		}
+	}
+	</style>
+</head>
+<body>
+	<h1>Some title</h1>
+	<div class="video-holder"> 
+		<iframe class="video" src="https://www.youtube.com/embed/RvqroaRpyt8?showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</body>
+</html>
